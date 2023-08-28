@@ -55,6 +55,7 @@ Exercícios de escrita de código
 
 ======================
 (1)
+*/
 
 const informaçoes = (frase) => {
 	const nome = "Páblo"
@@ -116,7 +117,7 @@ const numero1 = prompt("Insira um número")
 const numero2 = prompt("Insira outro número")
 
 const operaçoes = (numeros) => {
-	const soma = numero1 + numero2
+	const soma = Number(numero1) + Number(numero2)
 	const diferença = numero1 - numero2
 	const multiplicação = numero1 * numero2
 	const divisão = numero1 / numero2
